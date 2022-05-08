@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension UIColor {
+public extension UIColor {
   convenience init(light: UIColor, dark: UIColor) {
     self.init { traitCollection in
       switch traitCollection.userInterfaceStyle {

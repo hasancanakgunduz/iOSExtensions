@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-extension Color {
+public extension Color {
   init(light: Color, dark: Color) {
     self.init(UIColor(light: UIColor(light), dark: UIColor(dark)))
   }
 }
 
-extension Color {
+public extension Color {
   static let defaultBackground = Color(light: .blue, dark: .red)
 }
