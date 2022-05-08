@@ -1,0 +1,6 @@
+public struct iOSExtensions {
+    public private(set) var text = "Hello, World!"
+
+    public init() {
+    }
+}
